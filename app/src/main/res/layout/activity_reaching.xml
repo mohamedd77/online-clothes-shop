@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mod"
+    tools:context=".reaching">
+
+    <TextView
+        android:id="@+id/tv_we"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="welcome to online clothes shop"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_pants"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/departmen_buttons_design"
+        android:text="Go To Pants  Department"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn_shirts"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/departmen_buttons_design"
+        android:text="Go To T_shitrs  Department"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn_jackets"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/departmen_buttons_design"
+        android:text="Go To Jackets Department"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

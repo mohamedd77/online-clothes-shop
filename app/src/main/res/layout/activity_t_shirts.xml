@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_rowSpan="3"
+    android:layout_columnSpan="3"
+    android:layout_weight="1"
+    app:layout_rowSpan="3"
+    app:layout_rowWeight="1"
+    tools:context=".pants">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="price : 50$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="14dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt5" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price : 15$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt6" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price : 30$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy" />
+
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt7" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="price : 20$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt8" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="price: 10$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="14dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt2" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="price : 35$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy" />
+
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView91"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt3" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="price:  22$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="14dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt4" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price : 35$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt10" />
+
+            <TextView
+                android:id="@+id/textView200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price : 14$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="buy" />
+
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView914"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt11" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginBottom="-4dp"
+                android:text="price : 100$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button165"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-4dp"
+                android:text="buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="14dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView194"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt12" />
+
+
+            <TextView
+                android:id="@+id/textView330"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
+                android:text="price:  60$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-4dp"
+                android:text="buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView302"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/shirt13" />
+
+            <TextView
+                android:id="@+id/textView500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
+                android:text="price: 40$"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:text="buy" />
+
+        </LinearLayout>
+    </TableRow>
+
+
+</TableLayout>

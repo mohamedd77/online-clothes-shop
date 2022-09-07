@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="departments">
+
+        <item>go to pants department</item>
+
+
+        <item>go to shirts department</item>
+
+
+        <item>go to jackets department</item>
+
+    </string-array>
+    <string name="name_error">this is  an invalid name</string>
+    <string name="pass_error">this is  an invalid password</string>
+
+</resources>

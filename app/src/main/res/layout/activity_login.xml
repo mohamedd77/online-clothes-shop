@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shop"
+    android:orientation="vertical"
+    tools:context=".login">
+
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/design_login"
+        android:ems="10"
+        android:gravity="clip_horizontal"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="17dp"
+        android:textColorHint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/design_login"
+        android:ems="10"
+        android:gravity="clip_horizontal"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:padding="17dp"
+        android:textColorHint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/design_login"
+
+        android:ems="10"
+        android:gravity="clip_horizontal"
+        android:hint="Password"
+        android:inputType="textPassword"
+
+        android:padding="17dp"
+        android:textColorHint="#ffffff" />
+
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/butt_design"
+        android:text="login"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password"
+        app:layout_constraintVertical_bias="0.878" />
+
+</LinearLayout>
